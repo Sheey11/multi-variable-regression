@@ -52,7 +52,7 @@ def train():
             else:
                 str = '\u25b2'
             previous_cost = current_cost
-            print('Cost = {},\tHypothesis = {}x^2 + {}x + {}'.format(cost(), theta[0], theta[1], theta[2]) + '\t' + str)
+            print('Cost = {},\tHypothesis = {}x^2 + {}x + {}'.format(current_cost, theta[0], theta[1], theta[2]) + '\t' + str)
 
 read_data()
 train()
